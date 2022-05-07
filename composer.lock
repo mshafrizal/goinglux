@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "acidjazz/humble",
-            "version": "v2.1.4",
+            "version": "v2.1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/acidjazz/humble.git",
-                "reference": "fc43e053a85b27521628ad4d3c335c807b2eb337"
+                "reference": "20696d19dadf88c4ec02d8b2afe213e729f9518c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/acidjazz/humble/zipball/fc43e053a85b27521628ad4d3c335c807b2eb337",
-                "reference": "fc43e053a85b27521628ad4d3c335c807b2eb337",
+                "url": "https://api.github.com/repos/acidjazz/humble/zipball/20696d19dadf88c4ec02d8b2afe213e729f9518c",
+                "reference": "20696d19dadf88c4ec02d8b2afe213e729f9518c",
                 "shasum": ""
             },
             "require": {
@@ -62,22 +62,22 @@
             ],
             "support": {
                 "issues": "https://github.com/acidjazz/humble/issues",
-                "source": "https://github.com/acidjazz/humble/tree/v2.1.4"
+                "source": "https://github.com/acidjazz/humble/tree/v2.1.5"
             },
-            "time": "2022-02-09T13:06:06+00:00"
+            "time": "2022-05-07T02:13:08+00:00"
         },
         {
             "name": "acidjazz/metapi",
-            "version": "v2.1.7",
+            "version": "v2.1.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/acidjazz/metapi.git",
-                "reference": "b6bc14bc2db914ed4182e8d7dfd448f051469995"
+                "reference": "5f9810a92da88dddc708e08cfed4525ffe0a1a56"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/acidjazz/metapi/zipball/b6bc14bc2db914ed4182e8d7dfd448f051469995",
-                "reference": "b6bc14bc2db914ed4182e8d7dfd448f051469995",
+                "url": "https://api.github.com/repos/acidjazz/metapi/zipball/5f9810a92da88dddc708e08cfed4525ffe0a1a56",
+                "reference": "5f9810a92da88dddc708e08cfed4525ffe0a1a56",
                 "shasum": ""
             },
             "require": {
@@ -124,9 +124,9 @@
             ],
             "support": {
                 "issues": "https://github.com/acidjazz/metapi/issues",
-                "source": "https://github.com/acidjazz/metapi/tree/v2.1.7"
+                "source": "https://github.com/acidjazz/metapi/tree/v2.1.8"
             },
-            "time": "2022-02-09T13:01:17+00:00"
+            "time": "2022-05-05T18:53:13+00:00"
         },
         {
             "name": "brick/math",
@@ -3808,16 +3808,16 @@
         },
         {
             "name": "psy/psysh",
-            "version": "v0.11.2",
+            "version": "v0.11.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bobthecow/psysh.git",
-                "reference": "7f7da640d68b9c9fec819caae7c744a213df6514"
+                "reference": "05c544b339b112226ad14803e1e5b09a61957454"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/7f7da640d68b9c9fec819caae7c744a213df6514",
-                "reference": "7f7da640d68b9c9fec819caae7c744a213df6514",
+                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/05c544b339b112226ad14803e1e5b09a61957454",
+                "reference": "05c544b339b112226ad14803e1e5b09a61957454",
                 "shasum": ""
             },
             "require": {
@@ -3832,15 +3832,13 @@
                 "symfony/console": "4.4.37 || 5.3.14 || 5.3.15 || 5.4.3 || 5.4.4 || 6.0.3 || 6.0.4"
             },
             "require-dev": {
-                "bamarni/composer-bin-plugin": "^1.2",
-                "hoa/console": "3.17.05.02"
+                "bamarni/composer-bin-plugin": "^1.2"
             },
             "suggest": {
                 "ext-pcntl": "Enabling the PCNTL extension makes PsySH a lot happier :)",
                 "ext-pdo-sqlite": "The doc command requires SQLite to work.",
                 "ext-posix": "If you have PCNTL, you'll want the POSIX extension as well.",
-                "ext-readline": "Enables support for arrow-key history navigation, and showing and manipulating command history.",
-                "hoa/console": "A pure PHP readline implementation. You'll want this if your PHP install doesn't already support readline or libedit."
+                "ext-readline": "Enables support for arrow-key history navigation, and showing and manipulating command history."
             },
             "bin": [
                 "bin/psysh"
@@ -3880,9 +3878,9 @@
             ],
             "support": {
                 "issues": "https://github.com/bobthecow/psysh/issues",
-                "source": "https://github.com/bobthecow/psysh/tree/v0.11.2"
+                "source": "https://github.com/bobthecow/psysh/tree/v0.11.4"
             },
-            "time": "2022-02-28T15:28:54+00:00"
+            "time": "2022-05-06T12:49:14+00:00"
         },
         {
             "name": "ralouphie/getallheaders",
@@ -7770,21 +7768,21 @@
         },
         {
             "name": "fumeapp/modeltyper",
-            "version": "v1.0.29",
+            "version": "v1.0.28",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fumeapp/modeltyper.git",
-                "reference": "b9600598bc4828287ad43df1fa06f82bef6bf749"
+                "reference": "8c3470cd7352d010e304e66c63d673a357bdf443"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fumeapp/modeltyper/zipball/b9600598bc4828287ad43df1fa06f82bef6bf749",
-                "reference": "b9600598bc4828287ad43df1fa06f82bef6bf749",
+                "url": "https://api.github.com/repos/fumeapp/modeltyper/zipball/8c3470cd7352d010e304e66c63d673a357bdf443",
+                "reference": "8c3470cd7352d010e304e66c63d673a357bdf443",
                 "shasum": ""
             },
             "require": {
                 "illuminate/support": "8.*|9.*",
-                "php": "^8.1",
+                "php": "^8.0|^8.1",
                 "vinyvicente/doctrine-point-type": "^2.3"
             },
             "require-dev": {
@@ -7816,9 +7814,9 @@
             "description": "Generate TypeScript interfaces from Laravel Models",
             "support": {
                 "issues": "https://github.com/fumeapp/modeltyper/issues",
-                "source": "https://github.com/fumeapp/modeltyper/tree/v1.0.29"
+                "source": "https://github.com/fumeapp/modeltyper/tree/v1.0.28"
             },
-            "time": "2022-04-11T23:16:46+00:00"
+            "time": "2022-03-31T22:16:17+00:00"
         },
         {
             "name": "hamcrest/hamcrest-php",
@@ -8666,16 +8664,16 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "1.6.4",
+            "version": "1.6.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "e4cd0c2dd97809fcfdcd1f367ccf0be86c235168"
+                "reference": "d41c39cb2e487663bce9bbd97c660e244b73abad"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/e4cd0c2dd97809fcfdcd1f367ccf0be86c235168",
-                "reference": "e4cd0c2dd97809fcfdcd1f367ccf0be86c235168",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/d41c39cb2e487663bce9bbd97c660e244b73abad",
+                "reference": "d41c39cb2e487663bce9bbd97c660e244b73abad",
                 "shasum": ""
             },
             "require": {
@@ -8701,7 +8699,7 @@
             "description": "PHPStan - PHP Static Analysis Tool",
             "support": {
                 "issues": "https://github.com/phpstan/phpstan/issues",
-                "source": "https://github.com/phpstan/phpstan/tree/1.6.4"
+                "source": "https://github.com/phpstan/phpstan/tree/1.6.7"
             },
             "funding": [
                 {
@@ -8721,7 +8719,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-05-02T16:02:21+00:00"
+            "time": "2022-05-04T22:55:41+00:00"
         },
         {
             "name": "phpunit/php-code-coverage",
@@ -10359,16 +10357,16 @@
         },
         {
             "name": "spatie/laravel-ignition",
-            "version": "1.2.2",
+            "version": "1.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/laravel-ignition.git",
-                "reference": "924d1ae878874ad0bb49f63b69a9af759a34ee78"
+                "reference": "51e5daaa7e43c154fe57f1ddfbba862f9fe57646"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/laravel-ignition/zipball/924d1ae878874ad0bb49f63b69a9af759a34ee78",
-                "reference": "924d1ae878874ad0bb49f63b69a9af759a34ee78",
+                "url": "https://api.github.com/repos/spatie/laravel-ignition/zipball/51e5daaa7e43c154fe57f1ddfbba862f9fe57646",
+                "reference": "51e5daaa7e43c154fe57f1ddfbba862f9fe57646",
                 "shasum": ""
             },
             "require": {
@@ -10445,7 +10443,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-04-14T18:04:51+00:00"
+            "time": "2022-05-05T15:53:24+00:00"
         },
         {
             "name": "spatie/laravel-ray",
@@ -11333,5 +11331,5 @@
         "php": "^8.0|^8.1"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.2.0"
+    "plugin-api-version": "2.3.0"
 }
